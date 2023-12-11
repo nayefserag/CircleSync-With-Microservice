@@ -28,7 +28,6 @@ The project utilized the following technologies and tools:
 ### To Run App 
 Run the following command and ensure that you have Docker on your machine
 ```bash
-# development
 $ docker-compose up
 ```
 
