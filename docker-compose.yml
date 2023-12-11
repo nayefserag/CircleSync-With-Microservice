@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    
+
+  project1:
+    build: 
+      context: ./CircleSync
+    depends_on:
+      - redis
+
+  project2:  
+    build:
+      context: ./PDF_service
+    depends_on:  
+      - redis
