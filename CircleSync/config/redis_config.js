@@ -1,7 +1,7 @@
 const Redis = require('ioredis');
 const redisConfig = {
-  host: 'redis', 
-  port: 6379,    
+  host: 'localhost', 
+  port: 2407,    
 };
 const subscriber = new Redis(redisConfig);
 
