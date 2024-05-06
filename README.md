@@ -2,7 +2,7 @@
 # Circle Sync | Mobile Application
 
 <p align="center">
-<a href="https://imgur.com/wArqLkZ"><img src="https://i.imgur.com/wArqLkZ.png" title="source: imgur.com" /></a>
+<a href="DALL_E-2024-03-01-01.28-removebg-preview (1)-fotor-2024030123143.png"><img src="DALL_E-2024-03-01-01.28-removebg-preview (1)-fotor-2024030123143.png" title="source: imgur.com" /></a>
 </p>
 
 Circle Sync is a vibrant social media mobile application that facilitates user connections, content sharing, and meaningful interactions within dedicated interest-based spaces. It operates similarly to Facebook but with a focus on creating a space for users to connect around their interests.
