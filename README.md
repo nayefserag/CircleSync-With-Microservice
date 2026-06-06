@@ -1,49 +1,63 @@
+# 🔵 CircleSync
 
-# Circle Sync | Mobile Application
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-<p align="center">
-<a href="DALL_E-2024-03-01-01.28-removebg-preview (1)-fotor-2024030123143.png"><img src="DALL_E-2024-03-01-01.28-removebg-preview (1)-fotor-2024030123143.png" title="source: imgur.com" /></a>
-</p>
+A **microservices-based social platform** that connects people around shared interests — RESTful APIs, real-time push notifications, and an event-driven reporting pipeline powered by **Redis Pub/Sub**.
 
-Circle Sync is a vibrant social media mobile application that facilitates user connections, content sharing, and meaningful interactions within dedicated interest-based spaces. It operates similarly to Facebook but with a focus on creating a space for users to connect around their interests.
+## ✨ Features
 
+- 🔐 User authentication & authorization
+- 🤝 Interest-based connections & content sharing
+- 🔔 Real-time push notifications (Firebase Cloud Messaging)
+- 📊 Report generation via Redis Pub/Sub messaging
+- 🧩 Microservices architecture
+- 🐳 Containerized with Docker Compose
 
+## 🏗️ Architecture
 
-
-## Responsibilities
-During my involvement with Circle Sync, I had the following responsibilities:
-- Designed and implemented RESTful APIs to enable seamless communication between the mobile application and the server.
-- Leveraged Node.js and Express.js to create a robust and scalable backend, ensuring optimal performance.
-- Implemented user authentication and authorization mechanisms to safeguard user data and privacy.
-- Developed and maintained a MongoDB database for efficient storage and management of user-generated content and application data.
-- Integrated Firebase Cloud Messaging to provide real-time notifications, enhancing user engagement and overall experience.
-- Collaborated closely with mobile app developers to ensure smooth cross-platform integration.
-- Implemented comprehensive testing via both unit tests and integration tests to validate individual modules as well as interoperability across connected components, enabling robust and maintainable code.
-
-## Project Technologies & Tools
-The project utilized the following technologies and tools:
-- Node.js
-- Express.js
-- Jest
-- MongoDB
-- Firebase Cloud Messaging
-- Git
-- Docker
-
-### To Run App 
-Run the following command and ensure that you have Docker on your machine
-```bash
-$ docker-compose up
+```
+.
+├── CircleSync/        # Main application service
+├── Microservice/      # Supporting microservice(s)
+└── docker-compose.yml # Orchestrates the services
 ```
 
-## 
+## 🧰 Tech Stack
 
-- Feel free to explore the code, documentation, and the exciting features developed during the Circle Sync project. If you have any questions or would like to collaborate, please don't hesitate to get in touch.
+| Area | Tech |
+|------|------|
+| Runtime | Node.js |
+| Framework | Express.js |
+| Database | MongoDB |
+| Messaging | Redis Pub/Sub |
+| Notifications | Firebase Cloud Messaging |
+| Containerization | Docker, Docker Compose |
+| Testing | Jest |
 
-Enjoy your exploration! 
+## 🚀 Getting Started
 
-## Stay in touch
+```bash
+# With Docker (recommended)
+docker compose up --build
 
-- **Portfolio:** [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/nayefserag)
+# Or run a service directly
+cd CircleSync
+npm install
+cp .env.example .env
+npm start
+```
 
-- **LinkedIn:** [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nayf-serag-70a3611b8)
+## 🧪 Testing
+
+```bash
+npm test
+```
+
+## 📄 License
+
+MIT
