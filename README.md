@@ -6,6 +6,7 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![CI](https://github.com/nayefserag/CircleSync-With-Microservice/actions/workflows/ci.yml/badge.svg)
 
 A **microservices-based social platform** that connects people around shared interests — RESTful APIs, real-time push notifications, and an event-driven reporting pipeline powered by **Redis Pub/Sub**.
 
